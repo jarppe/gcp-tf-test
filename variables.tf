@@ -1,15 +1,10 @@
-variable "ORGANIZATION_ID" {
-  type        = string
-  description = "Owning organization"
-}
-
-variable "PROJECT_ID" {
-  type        = string
-  description = "Project ID"
-}
-
-variable "PROJECT_NAME" {
-  type        = string
-  description = "Project name"
-}
-
+variable "PROJECT_ID" {}
+variable "PROJECT_FOLDER_ID" {}
+variable "ORGANIZATION_ID" {}
+variable "BILLING_ACCOUNT" {}
+variable "REGION" {}
+variable "ZONE" {}
+variable "ACCOUNT" {}
+variable "SA_NAME" {}
+variable "CREDS" {}
+variable "BUCKET" {}
